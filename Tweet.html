@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TWEET TWEET</title>
+  </head>
+  <body>
+    <form action="/dog" id="tweetForm">
+      <div>
+        <label for="username">username:</label>
+        <input type="text" name="username" />
+      </div>
+      <br />
+      <div>
+        <label for="tweet">tweet: </label>
+        <input type="text" name="tweet" />
+      </div>
+      <br />
+      <button style="margin-left: 100px">Tweet</button>
+    </form>
+    <h2>Tweets:</h2>
+    <ul id="tweetList"></ul>
+    <script src="Tweet.js"></script>
+  </body>
+</html>
